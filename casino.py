@@ -140,7 +140,7 @@ obs = demo(nTables, primed, unPrimed, playerDice)
 #playerDice = np.zeros(6)
 #playerDice[4] = 0.5
 #playerDice[5] = 0.5
-'''
+
 iter = 10000
 hist = demo(nTables, primed, unPrimed, playerDice)
 print(hist)
@@ -150,6 +150,5 @@ for i in range(iter):
 n, bins, patches = plt.hist(hist)
 plt.xlim(2,12)
 plt.show()
-'''
 print("Observations", obs)
 print("Posterior",SampleFromPosterior(obs, primed, unPrimed, playerDice, pi, A))

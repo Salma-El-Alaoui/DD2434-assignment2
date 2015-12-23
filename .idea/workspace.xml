@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iCA.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iCA.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iCA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.24444444">
               <caret line="88" column="63" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
               <folding>
                 <element signature="e#22#40#0" expanded="true" />
@@ -67,14 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LDA.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LDA.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LDA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.482935">
+            <state vertical-scroll-proportion="0.0">
               <caret line="189" column="86" selection-start-line="189" selection-start-column="86" selection-end-line="189" selection-end-column="86" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="casino.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/casino.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,10 +144,10 @@
         <option value="$PROJECT_DIR$/R3-GT.txt" />
         <option value="$PROJECT_DIR$/iCA.py" />
         <option value="$PROJECT_DIR$/reportCasino.py" />
-        <option value="$PROJECT_DIR$/casino.py" />
         <option value="$PROJECT_DIR$/results-commonwords.txt" />
         <option value="$PROJECT_DIR$/classification.txt" />
         <option value="$PROJECT_DIR$/LDA.py" />
+        <option value="$PROJECT_DIR$/casino.py" />
       </list>
     </option>
   </component>
@@ -146,7 +156,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -397,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -793,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/casino.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4827585">
-          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/R3-Label.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -847,22 +849,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iCA.py">
+    <entry file="file://$PROJECT_DIR$/casino.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="63" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
+          <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LDA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.482935">
+        <state vertical-scroll-proportion="0.0">
           <caret line="189" column="86" selection-start-line="189" selection-start-column="86" selection-end-line="189" selection-end-column="86" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24444444">
+          <caret line="88" column="63" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
