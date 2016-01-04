@@ -140,32 +140,6 @@ def computeThetaTest():
         thetaTest[i,:] /= sum(thetaTest[i,:])
     return thetaTest
 
-def computeNewTheta():
-    data = "R3-tst-all_run.txt"
-    documents = sum(1 for line in open(data))
-    #create a test document-word matrix:
-    matrix = np.zeros((documents, words))
-    f = open(data,'r')
-    for document,line in enumerate(f):
-        for i,word in enumerate(line.split()):
-            if i != 0:
-                wordCount = word.split(':')
-                wordID = int(wordCount[0])
-                count = int(wordCount[1])
-                matrix[document,wordID] = count
-    for i in range(documents):
-        matrix[i,:] /= sum(matrix[i,:])
-    phiMatrix = phi()
-    t = np.transpose(phiMatrix)
-    tt = np.dot(phiMatrix, t)
-    print(tt)
-    inverse = np.linalg.pinv(tt)
-    print(inverse)
-    thetaTest = np.dot(matrix, np.dot(t, inverse))
-    #for i in range(documents):
-    #  thetaTest[i,:] /= sum(thetaTest[i,:])
-    return thetaTest
-
 def classifyDocuments(trainingSet, testSet, trainLabels, testLabels, k):
     clf = neighbors.KNeighborsClassifier(k)
     clf.fit(trainingSet, trainLabels)
